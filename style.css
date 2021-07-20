@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    font-family: 'Galatea Light', sans-serif;
+    background-color: #E8F0F2;
+    color: #053742;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 90vh;
+}
+
+#main-center-div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#game-prompts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#prompt-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#button-div {
+    width: 80%;
+}
+
+#play-button {
+    width: 90px;
+    min-height: 30px;
+    background: rgb(169, 255, 207);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#reset-button {
+    width: 90px;
+    min-height: 30px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+#play-button:hover {
+    background: #053742;
+    color: white;
+}
+
+#reset-button:hover {
+    background: #053742;
+    color: white;
+}
+
+#title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    margin-bottom: 80px;
+    margin-top: -80px;
+}
+
+.player-top-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.player-title {
+    
+}
+
+#player-one-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    width: 300px;
+}
+
+#player-two-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    width: 300px;
+}
+
+#player-one-score {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#player-two-score {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#board-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.board-row {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 99px;
+    width: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.square:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.top-border {
+    border-top: 2px solid black;
+    border-color: #053742;
+}
+
+.right-border {
+    border-right: 2px solid black;
+    border-color: #053742;
+}

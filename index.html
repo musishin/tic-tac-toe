@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTC-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @font-face {
+                font-family: 'Galatea Light';
+                font-style: normal;
+                font-weight: normal;
+                src: local('Galatea Light'), url('fonts/Galatea Regular Light.woff') format('woff');
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main-div">
+            <div id="title-div">
+                <span>tic-tac-toe</span>
+            </div>
+            <div id="main-center-div">
+                <div id="player-one-div">
+                    <div class="player-top-div">
+                        <span class="player-title">player one</span>
+                        <span id="player-one-score"></span>
+                    </div>
+                    <div id="player-one-move"></div>
+                </div>
+                <div id="board-div">
+                    <div class="board-row">
+                        <div id="square-one" class="square right-border"></div>
+                        <div id="square-two" class="square right-border"></div>
+                        <div id="square-three" class="square"></div>
+                    </div>
+                    <div class="board-row">
+                        <div id="square-four" class="square top-border right-border"></div>
+                        <div id="square-five" class="square top-border right-border"></div>
+                        <div id="square-six" class="square top-border"></div>
+                    </div>
+                    <div class="board-row">
+                        <div id="square-seven" class="square right-border top-border"></div>
+                        <div id="square-eight" class="square right-border top-border"></div>
+                        <div id="square-nine" class="square top-border"></div>
+                    </div>
+                </div>
+                <div id="player-two-div">
+                    <div class="player-top-div">
+                        <span class="player-title">player two</span>
+                        <span id="player-two-score"></span>
+                    </div>
+                    <div id="player-two-move"></div>
+                </div>
+            </div>
+            <div id="game-prompts">
+                <span id="prompt-span">player one, your move.</span>
+            </div>
+            <div id="button-div">
+                <button type="button" id="reset-button">reset game</button>
+                <button type="button" id="play-button">play again</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
